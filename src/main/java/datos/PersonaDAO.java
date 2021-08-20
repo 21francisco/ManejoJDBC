@@ -33,7 +33,7 @@ public class PersonaDAO {
                 String telefono = rs.getString("telefono");
                 persona = new Persona(idpersona, nombre, apellido, email, telefono);
 
-                persona.add(persona);
+                personas.add(persona);
             }
         } catch (SQLException ex) {
             ex.printStackTrace(System.out);

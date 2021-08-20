@@ -12,7 +12,7 @@ public class TestManejoPersonas {
        
         List<Persona> personas =  personaDao.seleccionar();
         
-        for (Persona persona: personas = personaDao.seleccionar()){
+        for (Persona persona: personas ){
         System.out.println("personas = " + personas);}
             
             
